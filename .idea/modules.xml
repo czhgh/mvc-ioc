@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-begin/javaweb-begin.iml" filepath="$PROJECT_DIR$/javaweb-begin/javaweb-begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-keyword/javaweb-keyword.iml" filepath="$PROJECT_DIR$/javaweb-keyword/javaweb-keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-mvc/javaweb-mvc.iml" filepath="$PROJECT_DIR$/javaweb-mvc/javaweb-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-mvc-dispacherservlet/javaweb-mvc-dispacherservlet.iml" filepath="$PROJECT_DIR$/javaweb-mvc-dispacherservlet/javaweb-mvc-dispacherservlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-mvc-ioc/javaweb-mvc-ioc.iml" filepath="$PROJECT_DIR$/javaweb-mvc-ioc/javaweb-mvc-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-mvc-reflect/javaweb-mvc-reflect.iml" filepath="$PROJECT_DIR$/javaweb-mvc-reflect/javaweb-mvc-reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-paging/javaweb-paging.iml" filepath="$PROJECT_DIR$/javaweb-paging/javaweb-paging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-scope/javaweb-scope.iml" filepath="$PROJECT_DIR$/javaweb-scope/javaweb-scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-thymeleaf/javaweb-thymeleaf.iml" filepath="$PROJECT_DIR$/javaweb-thymeleaf/javaweb-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

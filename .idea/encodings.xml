@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/fruit/dao/impl/FruitDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/fruit/servlets/EditServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/fruit/servlets/IndexServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/fruit/servlets/UpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/fruit/utils/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-keyword/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-dispacherservlet/src/com/clement/fruit/dao/impl/FruitDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-dispacherservlet/src/com/clement/fruit/utils/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-dispacherservlet/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-ioc/src/com/clement/fruit/dao/impl/FruitDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-ioc/src/com/clement/fruit/utils/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-ioc/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-reflect/src/com/clement/fruit/dao/impl/FruitDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-reflect/src/com/clement/fruit/utils/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc-reflect/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/fruit/dao/impl/FruitDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/fruit/servlets/EditServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/fruit/servlets/IndexServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/fruit/servlets/UpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/fruit/utils/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-mvc/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-paging/src/com/clement/fruit/dao/impl/FruitDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-paging/src/com/clement/fruit/servlets/EditServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-paging/src/com/clement/fruit/servlets/IndexServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-paging/src/com/clement/fruit/servlets/UpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-paging/src/com/clement/myssm/myspringmvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-scope/src/com/clement/fruit/servlets/IndexServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-scope/src/com/clement/scope/Demo01.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-scope/src/com/clement/scope/Demo02.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-scope/web/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/src/com/clement/fruit/dao/impl/FruitDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/src/com/clement/fruit/servlets/DelServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/src/com/clement/fruit/servlets/EditServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/src/com/clement/fruit/servlets/IndexServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/src/com/clement/fruit/servlets/UpdateServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/javaweb-thymeleaf/web/css/index.css" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,77 @@
+body{
+	 margin:0px;
+	 padding:0px;
+	 background-color:#808080;
+	 }
+
+div{
+	position:relative;
+	float:left;
+}
+#div_container{
+	   border:0px solid blue;
+	   width:80%;
+	   height:100%;
+	   margin-left:10%;
+	   background-color:#cccc99;
+	   border-radius:15px;
+	}
+
+#div_fruit_list{
+	  width:100%;
+	  border:0px solid  green;
+	}
+
+#tbl_fruit{
+	   width:60%;
+	   margin-top:10%;
+	   margin-left:20%;
+	   line-height:25px;
+	}
+
+#tbl_fruit,#tbl_fruit tr,#tbl_fruit th,#tbl_fruit td{
+	   border:1px solid  gray;
+	   border-collapse:collapse;
+       text-align:center;
+       font-size:17px;
+	   font-family:"����";
+	   font-weight:"lighter";
+	   color:#808080;
+	}
+.btn{
+	border:1px solid lightgray;
+	width:80px;
+	height:24px;
+}
+
+#add_fruit_div{
+ border:0px solid red;
+ width:40%;
+ margin-left:30%;
+}
+#add_fruit_tbl{
+  margin-top:16px;
+  width:80%;
+  margin-left:10%;
+  border-collapse:collapse;
+}
+#add_fruit_tbl,#add_fruit_tbl tr,#add_fruit_tbl td{
+  border:1px solid lightgray;
+}
+.w30{
+  width:30%;
+}
+
+.input{
+ padding-left:4px;
+ border:1px solid lightgray;
+ width:90%;
+}
+
+.center{
+   text-align: center;
+}
+.f30{
+	font-size: 30px;
+
+}

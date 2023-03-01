@@ -1,0 +1,43 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>水果库存静态页面</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="div_container">
+    <div id="div_fruit_list">
+        <p class="center f30">欢迎来到水果后台管理系统</p>
+        <div class="div_add">
+            <a class="a_add" th:href="@{/add.do}">添加水果库存记录</a>
+        </div>
+        <table id="tbl_fruit">
+            <tr>
+                <th>名称</th>
+                <th>单价</th>
+                <th>数量</th>
+                <!--<th>小计</th>-->
+                <th>操作</th>
+            </tr>
+            <tr th:if="${#lists.isEmpty(session.list)}">
+                <td colspan="4">对不起 库存为空！</td>
+            </tr>
+            <tr th:unless="${#lists.isEmpty(session.list)}" th:each="fruitlist : ${session.list}">
+                <td><a th:text="${fruitlist.getfName()}" th:href="@{/edit(fId=${fruitlist.fId})}"></a></td>
+                <td th:text="${fruitlist.getPrice()}"></td>
+                <td th:text="${fruitlist.getfCount()}"></td>
+                <!-- <td></td> -->
+                <td><img src="img/4.jpg" class="imgClass" th:onclick="|delFruit(${fruitlist.getfId()})|"></td>
+            </tr>
+        </table>
+        <div class="div_paging">
+            <input type="button" value="首 页" th:onclick="page(1)" th:disabled="${session.pageNo==1}"></input>
+            <input type="button" value="上一页" th:onclick="|page(${session.pageNo-1})|" th:disabled="${session.pageNo==1}"></input>
+            <input type="button" value="下一页" th:onclick="|page(${session.pageNo+1})|" th:disabled="${session.pageNo==session.pageCount}"></input>
+            <input type="button" value="尾 页" th:onclick="|page(${session.pageCount})|" th:disabled="${session.pageNo==session.pageCount}"></input>
+        </div>
+    </div>
+</div>
+</body>
+</html>

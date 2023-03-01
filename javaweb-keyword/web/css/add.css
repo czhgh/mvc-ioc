@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#808080;
+}
+
+div{
+    position:relative;
+    float:left;
+}
+#div_container{
+    border:1px solid blue;
+    width:80%;
+    height:100%;
+    margin-left:10%;
+    background-color:#cccc99;
+    border-radius:15px;
+}
+
+#div_fruit_list{
+    width:100%;
+    border:1px solid  red;
+}
+
+#tbl_fruit{
+    width:60%;
+    margin-top:10%;
+    margin-left:20%;
+    line-height:25px;
+    margin-top: 50px;
+}
+
+#tbl_fruit,#tbl_fruit tr,#tbl_fruit th,#tbl_fruit td{
+    border:1px solid  yellow;
+    border-collapse:collapse;
+    text-align:center;
+    font-size:17px;
+    font-family:"����";
+    font-weight:"lighter";
+    color:#808080;
+}
+.btn{
+    border:1px solid lightgray;
+    width:80px;
+    height:24px;
+    border-radius: 20%;
+}
+input[type=submit]:hover{
+    background-color: aqua;
+}
+.center{
+    text-align: center;
+}
+.f30{
+    font-size: 30px;
+}
+.error{
+    border: 1px solid red;
+    color: red;
+    font-weight: inherit;
+    font-style: oblique;
+    font-family: "华文云彩";
+}

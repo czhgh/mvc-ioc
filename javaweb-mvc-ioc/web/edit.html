@@ -1,0 +1,41 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>水果库存静态页面</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<body>
+<div id="div_container">
+    <div id="div_fruit_list">
+        <p class="center f30">编辑水果后台系统</p>
+        <form th:action="@{/fruit.do}"  method="post" th:object="${fruit}">
+            <input type="hidden" name="operate" value="update">
+            <input type="hidden" name="fid" th:value="*{fid}"/>
+            <table id="tbl_fruit"  >
+                <tr>
+                    <td class="w30">名称</td>
+                    <td><input type="text" name="fName" th:value="*{fname}"/></td>
+                </tr>
+                <tr>
+                    <td class="w30">单价</td>
+                    <td><input type="number" name="price" th:value="*{price}"/></td>
+                </tr>
+                <tr>
+                    <td class="w30">库存</td>
+                    <td><input type="text" name="fCount" th:value="*{fcount}"/></td>
+                </tr>
+                <tr>
+                    <td class="w30">备注</td>
+                    <td><input type="text" name="remark" th:value="*{remark}"/></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="提交"/>
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
